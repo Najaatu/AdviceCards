@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" /> -->
+    <link rel="stylesheet" href="advicestyle.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+      </style>
+    
+    <title>Advice Cards</title>
+  </head>
+
+  <div style="font-family: Manrope;">
+  <body onload = newQuotes(); >
+    <div class="container">
+      <h1 class="title">Advice #</h1>
+
+      <div id="quotesDisplay">
+      <p class="text"></p>
+      </div>
+
+      
+      <picture>
+        <source media="(min-width: 768px)"
+        srcset="./images/pattern-divider-desktop.svg"/>
+        <img src="./images/pattern-divider-mobile.svg" alt="divider" />
+      </picture>
+
+
+      <div>
+        <button onclick= newQuotes(); >
+        <img src="./images/icon-dice.svg" alt=""</button>
+      </div>
+
+    </div>
+    
+    <script src="advicescript.js"></script>
+  </body>
+  </div>
+
+</html>
